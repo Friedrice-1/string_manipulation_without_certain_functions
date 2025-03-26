@@ -8,3 +8,4 @@ for char in user_input:
     else:
         lowercase_user_input += char
 # print output
+print(lowercase_user_input)
