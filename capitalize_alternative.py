@@ -7,4 +7,10 @@ for char in user_input:
     else:
         capitalize_user_input += char
 # capitalize the first letter
+for char in user_input[1:]:
+    if 'A' <= char <= 'Z':  
+        capitalize_user_input += chr(ord(char) + 32)  
+    else:  
+        capitalize_user_input += char
 # print output
+print(capitalize_user_input)
